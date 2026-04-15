@@ -28,7 +28,8 @@ Lung Cancer Rate =
 DIVIDE(
     CALCULATE(COUNTROWS(Data), Data[Lung Cancer] = 1),
     COUNTROWS(Data)
-)```
+)
+```
 
 ---
 ## 📈 Key Features
