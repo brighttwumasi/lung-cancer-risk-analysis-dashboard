@@ -1,13 +1,11 @@
-# lung-cancer-risk-analysis-dashboard
-Lung Cancer Risk Analysis using Power BI and DAX
 # 📊 Lung Cancer Risk Analysis Dashboard
 
-### 🧩 Overview
-This project analyzes lung cancer data to identify key risk factors and support early detection using an interactive Power BI dashboard.
+## 🧩 Overview
+This project analyzes the impact of smoking on lung cancer risk and symptom severity using Power BI and DAX.
 
 ---
 
-### 🎯 Objectives
+## 🎯 Objectives
 - Identify key drivers of lung cancer  
 - Analyze demographic risk patterns  
 - Evaluate the impact of smoking  
@@ -15,15 +13,43 @@ This project analyzes lung cancer data to identify key risk factors and support 
 
 ---
 
-### 📊 Dataset
-Includes demographics, smoking behavior, symptoms, and lung cancer diagnosis outcomes.
+## 📊 Dataset
+- Patient-level data including demographics, symptoms, and diagnosis  
+- Includes co-risk amplifiers such as alcohol, anxiety, and peer pressure  
 
 ---
 
-### 🧮 Key DAX
+## 🧮 Key DAX
 ```DAX
 Lung Cancer Rate =
 DIVIDE(
     CALCULATE(COUNTROWS(Data), Data[Lung Cancer] = "Yes"),
     COUNTROWS(Data)
 )
+
+---
+
+## 📸 Dashboard Preview
+![Overview](images/overview.png)  
+![Deep Dive](images/deep-dive.png)
+
+---
+
+## 🔍 Key Insights
+- Smoking is associated with increased lung cancer risk  
+- Certain demographics show higher prevalence  
+- Key symptoms strongly correlate with diagnosis  
+- Co-risk factors amplify overall risk
+
+---
+
+## 💡 Recommendations
+- Target smokers for early screening  
+- Focus on high-risk symptoms  
+- Increase awareness programs
+
+---
+
+## 🧰 Tools Used
+
+Power BI | DAX | Power Query | Excel
