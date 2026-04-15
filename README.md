@@ -1,4 +1,4 @@
-# 📊 Lung Cancer Risk Analysis Dashboard
+# 📊 Lung Cancer Risk Analysis & Predictive Insights Dashboard
 
 ## 🧩 Overview
 This project analyzes the impact of smoking on lung cancer risk and symptom severity using Power BI and DAX, with the goal of identifying key risk drivers and supporting data-driven healthcare insights.
@@ -71,3 +71,8 @@ DIVIDE(
 
 ## 🚀 Conclusion
 This project demonstrates the application of data modeling, DAX, and visualization techniques to generate actionable insights and support data-driven decision-making in healthcare.
+
+---
+
+## 👤 Author
+Bright .M. Twumasi
