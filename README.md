@@ -75,6 +75,6 @@ This project demonstrates the application of data modeling, DAX, and visualizati
 ---
 
 ## 👤 Author
-Bright .M. Twumasi  
-Data Analyst | Lead Consultant 
+Bright Twumasi  
+Data Analyst | Lead consultant  
 Founder, BrightData Consult
