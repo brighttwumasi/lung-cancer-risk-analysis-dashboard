@@ -1,7 +1,7 @@
 # 📊 Lung Cancer Risk Analysis Dashboard
 
 ## 🧩 Overview
-This project analyzes the impact of smoking on lung cancer risk and symptom severity using Power BI and DAX.
+This project analyzes the impact of smoking on lung cancer risk and symptom severity using Power BI and DAX, with the goal of identifying key risk drivers and supporting data-driven healthcare insights.
 
 ---
 
@@ -14,6 +14,7 @@ This project analyzes the impact of smoking on lung cancer risk and symptom seve
 ---
 
 ## 📊 Dataset
+- Contains 3,000 patient records
 - Patient-level data including demographics, symptoms, and diagnosis  
 - Includes co-risk amplifiers such as alcohol, anxiety, and peer pressure  
 
@@ -21,11 +22,19 @@ This project analyzes the impact of smoking on lung cancer risk and symptom seve
 
 ## 🧮 Key DAX
 ```DAX
+### Lung Cancer Rate
 Lung Cancer Rate =
 DIVIDE(
-    CALCULATE(COUNTROWS(Data), Data[Lung Cancer] = "Yes"),
+    CALCULATE(COUNTROWS(Data), Data[Lung Cancer] = 1),
     COUNTROWS(Data)
 )
+---
+
+## 📈 Key Features
+- Interactive dashboard with dynamic filtering  
+- Risk-based conditional formatting  
+- Two-level dashboard (Executive & Deep Dive)  
+- Data modeling using unpivoted risk factors
 
 ---
 
@@ -52,4 +61,7 @@ DIVIDE(
 
 ## 🧰 Tools Used
 
-Power BI | DAX | Power Query | Excel
+- Power BI  
+- DAX (Data Analysis Expressions)  
+- Power Query  
+- Excel  
