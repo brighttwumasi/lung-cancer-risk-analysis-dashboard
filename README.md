@@ -14,22 +14,23 @@ This project analyzes the impact of smoking on lung cancer risk and symptom seve
 ---
 
 ## 📊 Dataset
-- Contains 3,000 patient records
+- Contains 3,000 patient records  
 - Patient-level data including demographics, symptoms, and diagnosis  
-- Includes co-risk amplifiers such as alcohol, anxiety, and peer pressure  
+- Includes co-risk amplifiers such as alcohol, anxiety, and chronic disease   
 
 ---
 
 ## 🧮 Key DAX
-```DAX
+
 ### Lung Cancer Rate
+```DAX
 Lung Cancer Rate =
 DIVIDE(
     CALCULATE(COUNTROWS(Data), Data[Lung Cancer] = 1),
     COUNTROWS(Data)
-)
----
+)```
 
+---
 ## 📈 Key Features
 - Interactive dashboard with dynamic filtering  
 - Risk-based conditional formatting  
@@ -45,7 +46,7 @@ DIVIDE(
 ---
 
 ## 🔍 Key Insights
-- Smoking is associated with increased lung cancer risk  
+- Smoking shows measurable increase in lung cancer risk  
 - Certain demographics show higher prevalence  
 - Key symptoms strongly correlate with diagnosis  
 - Co-risk factors amplify overall risk
@@ -60,8 +61,12 @@ DIVIDE(
 ---
 
 ## 🧰 Tools Used
-
 - Power BI  
 - DAX (Data Analysis Expressions)  
 - Power Query  
 - Excel  
+
+---
+
+## 🚀 Conclusion
+This project demonstrates the application of data modeling, DAX, and visualization techniques to generate actionable insights and support data-driven decision-making in healthcare.
